@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'lato', sans-serif;
+    color: rgb(0, 0, 0);
+    line-height: 1.5;
+}
+
+ul{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    color: #333;
+}
+
+h1{
+    color: black;
+    font-size: xx-large;
+    font-weight: 900;
+}
+
+p{
+    color: black;
+    margin: 10px 0;
+    font-weight: 600;
+}
+
+img{
+    width: 100%;
+}
+
+.navbar{
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+}
+
+.navbar-brand img{
+    padding: 16px 16px 16px 25px;
+    width: 150px;
+}
+
+.navbar ul{
+    font-size: 13px;
+    font-weight:600;
+}
+
+.navbar a{
+    padding-bottom: 0px;
+}
+
+.navbar ul a:hover{
+    border-bottom:  3px solid rgb(0, 0, 0);
+}
+
+
+.carousel-inner{
+    max-height: 38rem!important;
+}
+
+.carousel-caption{
+    position: absolute;
+    top: 60px;
+    right: auto;
+    left: 5%;
+    text-align: inherit;
+}
+.carousel-control-prev{
+    width: 5%;
+    opacity: 1.5;
+}
+
+.carousel-control-next{
+    width: 5%;
+    opacity: 1.5;
+}
+
+.c-paragraph-1{
+    display: inline-block;
+    font-size: 15px;
+    padding: 3px 14px 5px;
+    line-height: 1.5em;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    font-weight: 700;
+}
+
+.card{
+    border: none;
+}
+
+.card-body a{
+    font-weight: 800;
+    color: blue;
+}
+
+.card-body a:hover{
+    border-bottom:  3px solid rgb(59, 88, 215);
+}
+
+.learn-1{
+    background: black;
+    display: inline-block;
+    padding: 8px 20px 8px 20px;
+}
+
+.learn-2{
+    display: inline-block;
+    padding: 8px 20px 8px 20px;
+}
+
+.learn-a{
+    font-weight: 900;
+}
+
+.learn-a:hover{
+    border-bottom:  3px solid rgb(0, 0, 0);
+}
+
+.c-call-to-action:hover{
+    border-bottom:  3px solid rgb(243, 237, 237);
+}
+
+.m-heading-4{
+    padding-top: 50px;
+}
+
+.c-heading{
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.footer{
+    background: rgb(248, 245, 245);
+}
+
+
+
+.footer ul{
+    padding: 0;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 30px;
+}
+
+.footer a:hover{
+    border-bottom:  3px solid rgb(0, 0, 0);
+}
+
+#displayDateTime{
+    font-size: 18px;
+    font-weight: 700;
+}
